@@ -1,19 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;1,400&family=Roboto:wght@500;900&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
 
-@media screen and (max-width : 800px){
-
-    nav{
-        display :none !important;
-    }
-    .content-hero{
-        width : 50%;
-    }
-    .content-hero h1{
-        font-size : 2rem;
-    }
-}
-
 :root {
     --rouge : #da1333;
     --bleu : #007aff;
@@ -123,7 +110,6 @@ nav ul li a {
     font-weight: 400;
     font-size : 2.5rem;
     text-transform: uppercase;
-
 }
 
 .content-hero p {
@@ -361,6 +347,140 @@ nav ul li a {
     background: var(--rouge);
     transform: scale(0);
   }
+
+  @media screen and (max-width : 800px){
+
+    nav{
+        display :none;
+    }
+    .content-hero{
+        width : 100%;
+        align-items: center;
+    }
+    .content-hero h1{
+        font-size : 1.5rem;
+        text-align: center;
+    }
+    .content-hero p{
+        font-size : 1rem;
+        line-height: 2rem;
+        text-align: center;
+    }
+    .hero {
+        height : 50vh;
+    }
+    .register {
+        margin-top : 10px;
+        top : -0px;
+        height : 300px;
+        width : 80%;
+    }
+    .register h2{
+        font-size: 1rem;
+    }
+    #register input{
+        padding : 20px;
+        margin-bottom : 10px;
+        width : 80%;
+    }
+    #register button{
+        width : 80%;
+    }
+    .form-register {
+        margin : 0px 0px;
+    }
+    .activites {
+        display: flex;
+        flex-direction: column;
+        width : 100%;
+        margin-top : 30px;
+    }
+    .activites img{
+
+        width : 100%;
+
+    }
+    .presentation h2{
+        font-size: 1rem;
+    }
+    
+    .presentation p{
+        font-family: 'Roboto';
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+    }
+    
+    .presentation button{
+        padding : 5px;
+        width : 100%;
+        margin-bottom: 30px;
+    }
+    .presentation {
+        width : 80%;
+    }
+    .gadgets h1 {
+
+        font-size : 1.8rem;
+        margin : 5px 0px 40px 0px;
+    }
+    .gadget-items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow :scroll;
+    }
+    .title {
+        font-size : 1.5rem;
+    }
+    .molobeli {
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+    }
+    .tabs {
+        width : 100%;
+        margin-bottom: 10px;
+ 
+    }
+    .detailsAction {
+        width : 100%;
+    }
+
+    .tabs h3 {
+        padding : 20px 0px;
+        font-size : 0.8rem;
+        cursor: pointer;
+    }
+    .titleVid {
+        padding : 20px 0px 20px 0px;
+        font-size : 1.5rem;
+    }
+    .social {
+        display: flex;
+        flex-direction: column;
+        width : 80%;
+        margin : 0px auto;
+        background-color: #fff;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .social h2{
+        font-size: 1.5rem;
+    }
+    .socialdetails {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+    
+    .socialdetails i{
+        font-size : 2rem;
+    }
+}
 
 
 
