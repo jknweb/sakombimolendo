@@ -91,7 +91,7 @@ nav ul li a {
     justify-content :left;
     align-items: center;
     height : 80vh;
-    background-image: url(/images/deMol.jpg);
+    background-image: url(/images/mongala.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -359,11 +359,48 @@ footer {
     text-align: center;
     font-size : 0.6rem;
 }
+label, #toggle{ 
+    display: none;
+}
 
+
+ 
   @media screen and (max-width : 800px){
 
     nav{
         display :none;
+        
+    }
+    label 
+    {
+        width: 4rem;
+        display: flex;
+        margin: 0 auto;
+        font-size: 2rem;
+        color: rgb(56, 55, 55);
+        cursor: pointer;
+        text-align: right;
+    }
+    nav ul 
+    {
+        display: flex;
+        flex-direction: column;
+        background: #48435C;
+        height: 220px;
+    }
+    .content-nav .logo, nav .btn 
+    {
+        display: none;
+    }
+ 
+    nav .main_pages a {
+        width: 50%;
+    }
+    #toggle:checked + nav {
+        display: flex;
+    }
+    .content-nav{
+        justify-content: space-between;
     }
     .content-hero{
         width : 100%;
