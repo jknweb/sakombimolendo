@@ -480,6 +480,9 @@ nav ul li a {
     .socialdetails i{
         font-size : 2rem;
     }
+    main {
+        margin : 0px;
+    }
 }
 
 
