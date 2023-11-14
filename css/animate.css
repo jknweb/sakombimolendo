@@ -1,0 +1,28 @@
+@keyframes transit {
+    from {color: rgb(106, 107, 107);;}
+    to {color: rgb(11, 5, 175);}
+  }
+
+  nav ul li a:hover {
+    text-decoration: underline;
+    text-decoration-color: #fff;
+    transition: all 1s;
+    text-decoration-thickness: 2px;
+    text-decoration-color: var(--rouge);
+    text-underline-offset: 5px;
+    
+}
+
+.btn:hover{
+  background-color: #fff;
+  border : 2px solid rgb(129, 2, 2);
+  color :rgb(129, 2, 2);
+  font-weight: 200;
+  transition: all 1s;
+}
+
+.gadget-item img:hover{
+  opacity: 0.2;
+  transition: all 1s;
+}
+
