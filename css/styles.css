@@ -360,6 +360,7 @@ nav ul li a {
     .content-hero h1{
         font-size : 1.5rem;
         text-align: center;
+        box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
     }
     .content-hero p{
         font-size : 1rem;
@@ -377,10 +378,12 @@ nav ul li a {
     }
     .register h2{
         font-size: 1rem;
+        margin-bottom: 20px;
     }
     #register input{
         padding : 20px;
         margin-bottom : 10px;
+        border : 1px solid #828181;
         width : 80%;
     }
     #register button{
@@ -405,9 +408,11 @@ nav ul li a {
     }
     
     .presentation p{
-        font-family: 'Roboto';
-        font-size: 0.8rem;
-        line-height: 1.3rem;
+        font-family: 'Montserrat';
+        font-size: 1rem;
+        line-height: 1.5rem;
+        text-align: justify;
+        font-weight: normal;
     }
     
     .presentation button{
@@ -466,7 +471,7 @@ nav ul li a {
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
     .social h2{
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
     .socialdetails {
         display: flex;
