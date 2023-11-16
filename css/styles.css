@@ -141,7 +141,8 @@ nav ul li a {
 }
 #register input{
     padding : 20px;
-    width : 40%;
+    margin : 0 10px 0;
+    width : 35%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border : none;
 }
@@ -181,12 +182,11 @@ nav ul li a {
 
 .gadgets {
     background-color: var(--blanc);
-    padding : 30px 0px;
+    padding : 30px 0px 70px 0;
     margin : 50px 0px;
+    border-radius: 0 0 15% 0;
 }
-.gadgets button{
-    
-}
+
 .gadget-item img {
     width : 300px;
 }
