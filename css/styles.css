@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;1,400&family=Roboto:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
 
 :root {
@@ -16,9 +16,11 @@ a {
 * {
     margin : 0px;
     padding: 0px;
-    box-sizing: border-box;
-    font-family: 'Montserrat';
-    
+    box-sizing: border-box;    
+}
+
+body {
+    font-family: 'Lato', sans-serif;
 }
 
 header {
@@ -29,7 +31,7 @@ header {
 .btn {
     background-color: var(--rouge);
     padding : 5px 45px;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color : var(--blanc);
     height : 50px;
     border : 1px solid var(--rouge);
@@ -57,9 +59,7 @@ nav {
 
     display: flex;
     flex-direction: row;
-    justify-content: left;
-
-    
+    justify-content: left;  
 }
 
 .content-nav img {
@@ -107,14 +107,11 @@ nav ul li a {
 }
 
 .content-hero h1 {
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size : 2.5rem;
-    text-transform: uppercase;
+    font-size : 2.8rem;
 }
 
 .content-hero p {
-    font-family: 'Roboto', sans-serif;
     font-size : 1.5rem;
     line-height: 4rem;
     flex-flow :unset;
@@ -133,7 +130,6 @@ nav ul li a {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .register h2{
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 2rem;
     color : var(--blanc);
@@ -163,7 +159,6 @@ nav ul li a {
     flex : 1;
 }
 .presentation h2{
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 2rem;
     color : var(--bleu);
@@ -171,10 +166,10 @@ nav ul li a {
 }
 
 .presentation p{
-    font-family: 'Roboto';
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.5rem;
-    padding : 5px 0px 20px 0px;
+    text-align: justify;
+    padding : 5px 15px 20px 0px;
 }
 
 .presentation button{
@@ -214,7 +209,6 @@ nav ul li a {
 .gadgets h1 {
     text-align: center;
     color : var(--rouge);
-    font-family: 'Boroto';
     font-size : 3rem;
     font-weight : 400px;
     margin : 5px 0px 40px 0px;
@@ -294,6 +288,9 @@ nav ul li a {
     background-repeat: no-repeat;
     padding : 0px 0px 50px 0px;
 }
+.slideVideos{
+    width : 80%;
+}
 
 .seemore {
     margin : 50px 0px 105px 0px;
@@ -314,7 +311,6 @@ nav ul li a {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .social h2{
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 4rem;
     color : #fff;
@@ -455,7 +451,6 @@ label, #toggle{
     }
     
     .presentation p{
-        font-family: 'Montserrat';
         font-size: 1rem;
         line-height: 1.5rem;
         text-align: justify;
@@ -507,6 +502,9 @@ label, #toggle{
     .titleVid {
         padding : 20px 0px 20px 0px;
         font-size : 1.5rem;
+    }
+    .slideVideos{
+        width : 100%;
     }
     .social {
         display: flex;
