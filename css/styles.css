@@ -360,6 +360,9 @@ label, #toggle{
 
  
   @media screen and (max-width : 800px){
+      ul li a {
+        color : #fff;
+      }
 
     nav{
         display :none;
@@ -378,9 +381,13 @@ label, #toggle{
     nav ul 
     {
         display: flex;
+        position : absolute;
+        left : 0px;
+        top : 50px;
+        width : 100%;
+        height : auto;
         flex-direction: column;
-        background: #48435C;
-        height: 220px;
+        background: var(--bleu); 
     }
     .content-nav .logo, nav .btn 
     {
